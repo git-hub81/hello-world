@@ -3,15 +3,15 @@ services:
   one:
     build:
       dockerfile: Dockerfile
-      container_name: ghana-container-1
     image: ghana-1
+    container_name: ghana-container-1
     ports:
     - "8080:8080"
 
   two:
     build:
       dockerfile: Dockerfile
-      container_name: ghana-container-2
     image: ghana-2
+    container_name: ghana-container-2
     ports:
     - "9090:8080"
